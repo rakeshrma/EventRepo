@@ -11,8 +11,8 @@ on:
   push:
     branches:
       - main
-      - 'dev-*' # dev-new - dev-this-is-nes
-      - 'feat/**' #
+      - 'dev'
+      - 'feat/**'
     paths:
       -  ".github/workflows/*"
 jobs:
